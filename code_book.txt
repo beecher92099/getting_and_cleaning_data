@@ -1,0 +1,13 @@
+The tidy data set (x_file_tidy.txt) consists of the following columns/data:
+
+1) activity_label - identifies the activity the person was performing at the time of the measurements.  
+   Posssible values: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+2) subject - identifes the person performing the actvitity.  30 persons were involved in the experment
+   and are identified by the number 1 through 30.
+
+3) variable - indicates the name of the measurement.  Note that only measuremens involving mean or
+   standard deviation were retained in the data set.
+
+4) value - indicates the value for the corresponding variable.  The value is the mean (average) of
+   each variable for each activity and subject.  
